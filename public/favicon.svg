@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <!-- Simple background -->
+    <rect width="64" height="64" rx="8" fill="#0a0d26" />
+
+    <!-- Simple gradient -->
+    <defs>
+        <radialGradient id="simpleSpace" cx="32" cy="32" r="32" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#1e2763" />
+            <stop offset="100%" stop-color="#0a0d26" />
+        </radialGradient>
+    </defs>
+    <rect width="64" height="64" rx="8" fill="url(#simpleSpace)" />
+
+    <!-- Minimal stars -->
+    <circle cx="15" cy="20" r="1" fill="white" opacity="0.9" />
+    <circle cx="45" cy="15" r="1" fill="white" opacity="0.9" />
+    <circle cx="50" cy="40" r="1" fill="white" opacity="0.9" />
+    <circle cx="25" cy="50" r="1" fill="white" opacity="0.9" />
+    <circle cx="35" cy="30" r="1" fill="white" opacity="0.9" />
+
+    <!-- Simple galaxy -->
+    <circle cx="32" cy="32" r="12" fill="none" stroke="#8563c7" stroke-width="2" opacity="0.8" />
+
+    <!-- Center -->
+    <circle cx="32" cy="32" r="6" fill="#4e8adb" opacity="0.8" />
+    <circle cx="32" cy="32" r="3" fill="white" opacity="0.9" />
+</svg>
