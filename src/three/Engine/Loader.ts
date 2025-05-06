@@ -63,12 +63,12 @@ export class Loader {
   private rgbeLoader: RGBELoader;
   private exrLoader: EXRLoader;
 
-  public readonly events = new Events<
-    | { trigger: "start"; args: StartEventArgs }
-    | { trigger: "progress"; args: ProgressEventArgs }
-    | { trigger: "load"; args: LoadEventArgs }
-    | { trigger: "error"; args: ErrorEventArgs }
-  >();
+  public readonly events = new Events<{
+    start: StartEventArgs;
+    progress: ProgressEventArgs;
+    load: LoadEventArgs;
+    error: ErrorEventArgs;
+  }>();
 
   constructor(scene: THREE.Scene) {
     this.scene = scene;
